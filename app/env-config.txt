@@ -1,0 +1,14 @@
+# Flask Server (.env)
+FLASK_ENV=development
+FLASK_APP=app.py
+FLASK_DEBUG=1
+SECRET_KEY=your-secret-key-here
+DATABASE_URL=sqlite:///D:/AI/PlotBot3k/server/data/plotbot.db
+UPLOAD_FOLDER=D:/AI/PlotBot3k/server/uploads
+
+# Node.js Processing Server (.env)
+PORT=7000
+AI_HOST=http://127.0.0.1:9000
+UPLOAD_DIR=D:/AI/PlotBot3k/processing/uploads
+TEMP_DIR=D:/AI/PlotBot3k/processing/temp
+LOG_LEVEL=info
